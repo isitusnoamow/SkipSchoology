@@ -1,12 +1,12 @@
 let checkbox = document.getElementById('check');
-checked = true;
+let checkered = null;
 chrome.storage.sync.get(["checked"], function(result) {
     checkbox.checked = result.checked;
-    checked = result.checked;
+    checkered = result.checked;
 });
-checkbox.checked = checked;
-
+checkbox.checked = checkered;
 checkbox.addEventListener('click', function() {
-    checked = !checked;
+    checkered = !checkered;
+    checkbox.checked = checkered;
     chrome.storage.sync.set({ checked: checkbox.checked });
 });

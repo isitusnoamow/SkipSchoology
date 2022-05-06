@@ -1,8 +1,8 @@
 {
-    "name": "SkipHKIS",
-    "version": "1.0",
+    "name": "SkipSchoology",
+    "version": "0.1.0",
     "manifest_version": 3,
-    "description": "Skip the redirect prompt",
+    "description": "Skip Schoology's redirect prompt",
     "background": {
         "serivce_worker": "background.js"
     },
