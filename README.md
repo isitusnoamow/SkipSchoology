@@ -5,6 +5,9 @@ For other schools you can change the manifest.json content_scripts section for y
 
 # Installation
 
+**UPDATE**
+DOWNLOAD THE EXTENSION HERE: [https://chrome.google.com/webstore/detail/skipschoology/gdcogoapkfaiepdfjoejmjjhgckhldai](https://chrome.google.com/webstore/detail/skipschoology/gdcogoapkfaiepdfjoejmjjhgckhldai)
+
 1. Install the zip [here](https://github.com/isitusnoamow/SkipSchoology/archive/refs/heads/main.zip)
 2. Unzip the file
 3. Go to [chrome://extensions](chrome://extensions)
